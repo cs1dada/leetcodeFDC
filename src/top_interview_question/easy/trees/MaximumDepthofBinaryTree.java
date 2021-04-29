@@ -3,8 +3,10 @@ package top_interview_question.easy.trees;
 public class MaximumDepthofBinaryTree {
 
     public int maxDepth(TreeNode root) {
-
-        return 0;
+        if(root == null)
+            return 0;
+        
+        return 1 + Math.max(maxDepth(root.left), maxDepth(root.right));    
         
     }
 
