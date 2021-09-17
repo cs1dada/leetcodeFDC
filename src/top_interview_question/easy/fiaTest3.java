@@ -1,9 +1,13 @@
 package top_interview_question.easy;
 
+import java.sql.Timestamp;
+import java.util.Calendar;
+import java.util.Date;
+
 /**
  * RemoveDuplicatesfromSortedArraySolution
  */
-public class fiaTest2 {
+public class fiaTest3 {
 
     public boolean isPalindrome(String s) {
 
@@ -58,63 +62,34 @@ public class fiaTest2 {
 
     }
 
+        /**
+     * 取得幾天前後的日期
+     * @param date date
+     * @param amount amount
+     * @return Date
+     */
+    public Date getCalDate(Date date, int amount) {
+        Calendar c = Calendar.getInstance();
+        c.setTime(date);
+
+        int day = c.get(Calendar.DAY_OF_MONTH);
+        int month = c.get(Calendar.MONTH);
+        int year = c.get(Calendar.YEAR);
+
+        c.set(year, month, day);
+        c.add(Calendar.DATE, amount);
+        return c.getTime();
+    }
+
     public static void main(String[] args) {
-        // int[] numbers = {99, 44, 6, 2, 1, 5, 63, 87, 283, 4, 0};
-        String s = "A man, a plan, a canal: Panama";
+        Long datetime = System.currentTimeMillis();
+        Timestamp timestamp = new Timestamp(datetime);
 
-        fiaTest2 aa = new fiaTest2();
+        fiaTest3 aa = new fiaTest3();
+        Date afterAmountDay = aa.getCalDate(timestamp,3);
 
-        System.out.println(aa.isPalindrome(s));
-
-        String test = "0000056 K123456789 0481206+ 0980601 1090308 王測試";
-
-        String [] testArr = test.split(" ");
-        // 證號(10)
-        String idn = testArr[1];
-        // 出生日期(8)
-        String bornDate = aa.toADYear(testArr[2]);
-        // 出境日期(7)
-        String dprtDate = aa.toADYear(testArr[3]);
-        // 入境日期(7)
-        String entryDate = aa.toADYear(testArr[4]);
-
-        // System.out.println(idn +" "+ bornDate );
-        System.out.println(idn +" "+ bornDate +" "+ dprtDate +" "+ entryDate);
-
-
-        //
-        String pickYm="19612";
-        if (pickYm.substring(0, 1).equals("0")){
-            //096
-            System.out.println(pickYm.substring(1, 3));
-        } else {
-            //100
-            System.out.println(pickYm.substring(0, 3));
-        }
-
-        int week = 5;
-        int dayIdx = 29;
-        int lastDate=30;
-
-        System.out.println("before: "+week);
-        
-        if(dayIdx != lastDate - 1 && ++week == 7){
-            System.out.println("1234");
-        }
-                
-        // if( ++week == 7 && dayIdx != lastDate - 1){
-        //     System.out.println("1234");
-        // }
-        System.out.println("after: "+week);
-
-        String bbb ="";
-        System.out.println(bbb.length());
-        // if(bbb.substring(0, 1).matches("[a-zA-Z0-9]")) {
-        //     System.out.println("match ");
-        // } else {
-        //     System.out.println("not match ");
-        // }
-
+        System.out.println("Current Time Stamp: "+timestamp);
+        System.out.println("3dayLaterTimeStamp: "+afterAmountDay);
 
     }
 }
