@@ -137,108 +137,122 @@ public class fiaTest {
     }
 
     public static void main(String[] args) {
-        // int[] numbers = {99, 44, 6, 2, 1, 5, 63, 87, 283, 4, 0};
-        int[] numbers = { 1, 2, 3, 3, 4, 5, 6, 6, 6, 7, 8 };
-        int[] numbers2 = { 7, 1, 5, 3, 6, 4 };
-        int[] numbers3 = { 3, 2, 5, 8, 1 };
-        int[] numbers4 = { 7, 6, 4, 3, 1 };
-        fiaTest aa = new fiaTest();
-        System.out.println(aa.maxProfit(numbers4));
-        System.out.println("hello world");
-        String text = "091L";
-        System.out.println(Integer.valueOf(text.substring(0, 2)));
-        // System.out.println(Integer.valueOf(text));
+        BAM134XVO vo = new BAM134XVO();
+        System.out.println("vo= "+vo.toString());
 
-        String text1 = "10911";
-        String text2 = "097CV";
-        if (text1.compareTo(text2) > 0) {
-            System.out.println("text1>text2");
-        } else if (text1.compareTo(text2) < 0) {
-            System.out.println("text1<text2");
+        String BGMT009_BSCD_38_CD = " ";
+        String aa = "0";
+        if (BGMT009_BSCD_38_CD.compareTo(aa)>0) {
+            System.out.println(">0 ");
+        } else if (BGMT009_BSCD_38_CD.compareTo(aa) == 0) {
+            System.out.println("=0 ");
+        } else if (BGMT009_BSCD_38_CD.compareTo(aa)<0) {
+            System.out.println("<0 ");
         }
-        // String[] numbers5 = { "109CV", "097CV", "10911", "0984I", "09653" };
-        String[] numbers5 = { "10909", "093BV", "10911", "09845", "093BC" };
-        System.out.println(Collections.min(Arrays.asList(numbers5)));
+
         
-        System.out.println(aa.getSmallestBlYrPd(Arrays.asList(numbers5)));
+        // // int[] numbers = {99, 44, 6, 2, 1, 5, 63, 87, 283, 4, 0};
+        // int[] numbers = { 1, 2, 3, 3, 4, 5, 6, 6, 6, 7, 8 };
+        // int[] numbers2 = { 7, 1, 5, 3, 6, 4 };
+        // int[] numbers3 = { 3, 2, 5, 8, 1 };
+        // int[] numbers4 = { 7, 6, 4, 3, 1 };
+        // fiaTest aa = new fiaTest();
+        // System.out.println(aa.maxProfit(numbers4));
+        // System.out.println("hello world");
+        // String text = "091L";
+        // System.out.println(Integer.valueOf(text.substring(0, 2)));
+        // // System.out.println(Integer.valueOf(text));
+
+        // String text1 = "10911";
+        // String text2 = "097CV";
+        // if (text1.compareTo(text2) > 0) {
+        //     System.out.println("text1>text2");
+        // } else if (text1.compareTo(text2) < 0) {
+        //     System.out.println("text1<text2");
+        // }
+        // // String[] numbers5 = { "109CV", "097CV", "10911", "0984I", "09653" };
+        // String[] numbers5 = { "10909", "093BV", "10911", "09845", "093BC" };
+        // System.out.println(Collections.min(Arrays.asList(numbers5)));
+        
+        // System.out.println(aa.getSmallestBlYrPd(Arrays.asList(numbers5)));
         
 
-        String asdf = "屏東縣三地門鄉";
-        String qwer = "Nantou City, Nantou County";
+        // String asdf = "屏東縣三地門鄉";
+        // String qwer = "Nantou City, Nantou County";
 
-        System.out.println(asdf.substring(0, 3));
-        System.out.println(asdf.substring(3, asdf.length()));
-        System.out.println(qwer.split(",")[0].trim());
-        System.out.println(qwer.split(",")[1].trim());
-        System.out.println();
+        // System.out.println(asdf.substring(0, 3));
+        // System.out.println(asdf.substring(3, asdf.length()));
+        // System.out.println(qwer.split(",")[0].trim());
+        // System.out.println(qwer.split(",")[1].trim());
+        // System.out.println();
 
 
-        //String xml = '<mofxmq003req:XMQ003_RQ xmlns:mofxmq003req="http://li.etax.nat.gov.tw/MOF/XMQ003Req_new_definition" xmlns:mofxmq003="http://li.etax.nat.gov.tw/MOF/XMQ003_new_definition" XMQ003_RQA_001="003" XMQ003_RQA_002="017"><mofxmq003req:XMQ003_RQ_001>10000092_1091015_228638_2793</mofxmq003req:XMQ003_RQ_001><mofxmq003req:XMQ003_RQ_002>10000092_1091015_228640_2723</mofxmq003req:XMQ003_RQ_002><mofxmq003req:XMQ003_RQ_003>S</mofxmq003req:XMQ003_RQ_003><mofxmq003req:XMQ003_RQ_004>8030065</mofxmq003req:XMQ003_RQ_004><mofxmq003req:XMQ003_RQ_005>313050000G</mofxmq003req:XMQ003_RQ_005><mofxmq003req:XMQ003_RQ_006>經濟部中小企業處</mofxmq003req:XMQ003_RQ_006><mofxmq003:XMQ003_CMQ><mofxmq003:XMQ003_CMQ_001>43818734</mofxmq003:XMQ003_CMQ_001><mofxmq003:XMQ003_CMQ_002>0809320540280908</mofxmq003:XMQ003_CMQ_002><mofxmq003:XMQ003_CMQ_003>泓福實業股份有限公司</mofxmq003:XMQ003_CMQ_003><mofxmq003:XMQ003_CMQ_004>109</mofxmq003:XMQ003_CMQ_004><mofxmq003:XMQ003_CMQ_006>8030065</mofxmq003:XMQ003_CMQ_006><mofxmq003:XMQ003_CMQ_007/><mofxmq003:XMQ003_CMQ_008/><mofxmq003:XMQ003_CMQ_009/><mofxmq003:XMQ003_CMQ_010/><mofxmq003:XMQ003_CMQ_011/></mofxmq003:XMQ003_CMQ></mofxmq003req:XMQ003_RQ>';        
-        StringBuilder str = new StringBuilder();
-        str.append("<mofxmq003req:XMQ003_RQ XMQ003_RQA_001=\"003\" XMQ003_RQA_002=\"017\" xmlns:mofxmq003=\"http://li.etax.nat.gov.tw/MOF/XMQ003_new_definition\" xmlns:mofxmq003req=\"http://li.etax.nat.gov.tw/MOF/XMQ003Req_new_definition\">");
-        str.append("<mofxmq003req:XMQ003_RQ_001>10000092_1091015_228638_2793</mofxmq003req:XMQ003_RQ_001><mofxmq003req:XMQ003_RQ_002>10000092_1091015_228640_2723</mofxmq003req:XMQ003_RQ_002><mofxmq003req:XMQ003_RQ_003>S</mofxmq003req:XMQ003_RQ_003><mofxmq003req:XMQ003_RQ_004>8030065</mofxmq003req:XMQ003_RQ_004><mofxmq003req:XMQ003_RQ_005>313050000G</mofxmq003req:XMQ003_RQ_005><mofxmq003req:XMQ003_RQ_006>經濟部中小企業處</mofxmq003req:XMQ003_RQ_006><mofxmq003:XMQ003_CMQ><mofxmq003:XMQ003_CMQ_001>43818734</mofxmq003:XMQ003_CMQ_001><mofxmq003:XMQ003_CMQ_002>0809320540280908</mofxmq003:XMQ003_CMQ_002><mofxmq003:XMQ003_CMQ_003>泓福實業股份有限公司</mofxmq003:XMQ003_CMQ_003><mofxmq003:XMQ003_CMQ_004>109</mofxmq003:XMQ003_CMQ_004><mofxmq003:XMQ003_CMQ_006>8030065</mofxmq003:XMQ003_CMQ_006><mofxmq003:XMQ003_CMQ_007></mofxmq003:XMQ003_CMQ_007><mofxmq003:XMQ003_CMQ_008></mofxmq003:XMQ003_CMQ_008><mofxmq003:XMQ003_CMQ_009></mofxmq003:XMQ003_CMQ_009><mofxmq003:XMQ003_CMQ_010></mofxmq003:XMQ003_CMQ_010><mofxmq003:XMQ003_CMQ_011></mofxmq003:XMQ003_CMQ_011></mofxmq003:XMQ003_CMQ></mofxmq003req:XMQ003_RQ>");
-        System.out.println(str.toString());
-        System.out.println();
-        System.out.println();
+        // //String xml = '<mofxmq003req:XMQ003_RQ xmlns:mofxmq003req="http://li.etax.nat.gov.tw/MOF/XMQ003Req_new_definition" xmlns:mofxmq003="http://li.etax.nat.gov.tw/MOF/XMQ003_new_definition" XMQ003_RQA_001="003" XMQ003_RQA_002="017"><mofxmq003req:XMQ003_RQ_001>10000092_1091015_228638_2793</mofxmq003req:XMQ003_RQ_001><mofxmq003req:XMQ003_RQ_002>10000092_1091015_228640_2723</mofxmq003req:XMQ003_RQ_002><mofxmq003req:XMQ003_RQ_003>S</mofxmq003req:XMQ003_RQ_003><mofxmq003req:XMQ003_RQ_004>8030065</mofxmq003req:XMQ003_RQ_004><mofxmq003req:XMQ003_RQ_005>313050000G</mofxmq003req:XMQ003_RQ_005><mofxmq003req:XMQ003_RQ_006>經濟部中小企業處</mofxmq003req:XMQ003_RQ_006><mofxmq003:XMQ003_CMQ><mofxmq003:XMQ003_CMQ_001>43818734</mofxmq003:XMQ003_CMQ_001><mofxmq003:XMQ003_CMQ_002>0809320540280908</mofxmq003:XMQ003_CMQ_002><mofxmq003:XMQ003_CMQ_003>泓福實業股份有限公司</mofxmq003:XMQ003_CMQ_003><mofxmq003:XMQ003_CMQ_004>109</mofxmq003:XMQ003_CMQ_004><mofxmq003:XMQ003_CMQ_006>8030065</mofxmq003:XMQ003_CMQ_006><mofxmq003:XMQ003_CMQ_007/><mofxmq003:XMQ003_CMQ_008/><mofxmq003:XMQ003_CMQ_009/><mofxmq003:XMQ003_CMQ_010/><mofxmq003:XMQ003_CMQ_011/></mofxmq003:XMQ003_CMQ></mofxmq003req:XMQ003_RQ>';        
+        // StringBuilder str = new StringBuilder();
+        // str.append("<mofxmq003req:XMQ003_RQ XMQ003_RQA_001=\"003\" XMQ003_RQA_002=\"017\" xmlns:mofxmq003=\"http://li.etax.nat.gov.tw/MOF/XMQ003_new_definition\" xmlns:mofxmq003req=\"http://li.etax.nat.gov.tw/MOF/XMQ003Req_new_definition\">");
+        // str.append("<mofxmq003req:XMQ003_RQ_001>10000092_1091015_228638_2793</mofxmq003req:XMQ003_RQ_001><mofxmq003req:XMQ003_RQ_002>10000092_1091015_228640_2723</mofxmq003req:XMQ003_RQ_002><mofxmq003req:XMQ003_RQ_003>S</mofxmq003req:XMQ003_RQ_003><mofxmq003req:XMQ003_RQ_004>8030065</mofxmq003req:XMQ003_RQ_004><mofxmq003req:XMQ003_RQ_005>313050000G</mofxmq003req:XMQ003_RQ_005><mofxmq003req:XMQ003_RQ_006>經濟部中小企業處</mofxmq003req:XMQ003_RQ_006><mofxmq003:XMQ003_CMQ><mofxmq003:XMQ003_CMQ_001>43818734</mofxmq003:XMQ003_CMQ_001><mofxmq003:XMQ003_CMQ_002>0809320540280908</mofxmq003:XMQ003_CMQ_002><mofxmq003:XMQ003_CMQ_003>泓福實業股份有限公司</mofxmq003:XMQ003_CMQ_003><mofxmq003:XMQ003_CMQ_004>109</mofxmq003:XMQ003_CMQ_004><mofxmq003:XMQ003_CMQ_006>8030065</mofxmq003:XMQ003_CMQ_006><mofxmq003:XMQ003_CMQ_007></mofxmq003:XMQ003_CMQ_007><mofxmq003:XMQ003_CMQ_008></mofxmq003:XMQ003_CMQ_008><mofxmq003:XMQ003_CMQ_009></mofxmq003:XMQ003_CMQ_009><mofxmq003:XMQ003_CMQ_010></mofxmq003:XMQ003_CMQ_010><mofxmq003:XMQ003_CMQ_011></mofxmq003:XMQ003_CMQ_011></mofxmq003:XMQ003_CMQ></mofxmq003req:XMQ003_RQ>");
+        // System.out.println(str.toString());
+        // System.out.println();
+        // System.out.println();
 
-        StringBuilder str2 = new StringBuilder();
-        str2.append("<mofxmq003req:XMQ003_RQ XMQ003_RQA_001=\"003\" XMQ003_RQA_002=\"017\" xmlns:mofxmq003=\"http://li.etax.nat.gov.tw/MOF/XMQ003_new_definition\" xmlns:mofxmq003req=\"http://li.etax.nat.gov.tw/MOF/XMQ003Req_new_definition\">");
-        //source
-        str2.append("<mofxmq003req:XMQ003_RQ_001>10000092_1091015_228638_2793</mofxmq003req:XMQ003_RQ_001>");
-        str2.append("<mofxmq003req:XMQ003_RQ_002>10000092_1091015_228640_2723</mofxmq003req:XMQ003_RQ_002> ");
-        str2.append("<mofxmq003req:XMQ003_RQ_003>S</mofxmq003req:XMQ003_RQ_003>");
-        str2.append("<mofxmq003req:XMQ003_RQ_004>8030065</mofxmq003req:XMQ003_RQ_004>");
-        str2.append("<mofxmq003req:XMQ003_RQ_005>313050000G</mofxmq003req:XMQ003_RQ_005>");
-        str2.append("<mofxmq003req:XMQ003_RQ_006>經濟部中小企業處</mofxmq003req:XMQ003_RQ_006>");
-        //query para
-        // 牌照稅甲測測試案例
-        // 66896598
-        // O100055821
-        str2.append("<mofxmq003:XMQ003_CMQ>");
-        str2.append("<mofxmq003:XMQ003_CMQ_001>66896598</mofxmq003:XMQ003_CMQ_001>");
-        str2.append("<mofxmq003:XMQ003_CMQ_002/>");
-        str2.append("<mofxmq003:XMQ003_CMQ_003>張瑞益即億利鮮魚行</mofxmq003:XMQ003_CMQ_003>");
-        str2.append("<mofxmq003:XMQ003_CMQ_004/>");
-        str2.append("<mofxmq003:XMQ003_CMQ_005/>");
-        str2.append("<mofxmq003:XMQ003_CMQ_006/>");
-        str2.append("<mofxmq003:XMQ003_CMQ_007/>");
-        str2.append("<mofxmq003:XMQ003_CMQ_008/>");
-        str2.append("<mofxmq003:XMQ003_CMQ_009/>");
-        str2.append("<mofxmq003:XMQ003_CMQ_010/>");
-        str2.append("<mofxmq003:XMQ003_CMQ_011/>");
-        str2.append("</mofxmq003:XMQ003_CMQ>");
+        // StringBuilder str2 = new StringBuilder();
+        // str2.append("<mofxmq003req:XMQ003_RQ XMQ003_RQA_001=\"003\" XMQ003_RQA_002=\"017\" xmlns:mofxmq003=\"http://li.etax.nat.gov.tw/MOF/XMQ003_new_definition\" xmlns:mofxmq003req=\"http://li.etax.nat.gov.tw/MOF/XMQ003Req_new_definition\">");
+        // //source
+        // str2.append("<mofxmq003req:XMQ003_RQ_001>10000092_1091015_228638_2793</mofxmq003req:XMQ003_RQ_001>");
+        // str2.append("<mofxmq003req:XMQ003_RQ_002>10000092_1091015_228640_2723</mofxmq003req:XMQ003_RQ_002> ");
+        // str2.append("<mofxmq003req:XMQ003_RQ_003>S</mofxmq003req:XMQ003_RQ_003>");
+        // str2.append("<mofxmq003req:XMQ003_RQ_004>8030065</mofxmq003req:XMQ003_RQ_004>");
+        // str2.append("<mofxmq003req:XMQ003_RQ_005>313050000G</mofxmq003req:XMQ003_RQ_005>");
+        // str2.append("<mofxmq003req:XMQ003_RQ_006>經濟部中小企業處</mofxmq003req:XMQ003_RQ_006>");
+        // //query para
+        // // 牌照稅甲測測試案例
+        // // 66896598
+        // // O100055821
+        // str2.append("<mofxmq003:XMQ003_CMQ>");
+        // str2.append("<mofxmq003:XMQ003_CMQ_001>66896598</mofxmq003:XMQ003_CMQ_001>");
+        // str2.append("<mofxmq003:XMQ003_CMQ_002/>");
+        // str2.append("<mofxmq003:XMQ003_CMQ_003>張瑞益即億利鮮魚行</mofxmq003:XMQ003_CMQ_003>");
+        // str2.append("<mofxmq003:XMQ003_CMQ_004/>");
+        // str2.append("<mofxmq003:XMQ003_CMQ_005/>");
+        // str2.append("<mofxmq003:XMQ003_CMQ_006/>");
+        // str2.append("<mofxmq003:XMQ003_CMQ_007/>");
+        // str2.append("<mofxmq003:XMQ003_CMQ_008/>");
+        // str2.append("<mofxmq003:XMQ003_CMQ_009/>");
+        // str2.append("<mofxmq003:XMQ003_CMQ_010/>");
+        // str2.append("<mofxmq003:XMQ003_CMQ_011/>");
+        // str2.append("</mofxmq003:XMQ003_CMQ>");
         
-        str2.append("</mofxmq003req:XMQ003_RQ>");
+        // str2.append("</mofxmq003req:XMQ003_RQ>");
 
-        System.out.println(str2.toString());
-        System.out.println();
-        System.out.println();
-        //String xml = 'aa';
+        // System.out.println(str2.toString());
+        // System.out.println();
+        // System.out.println();
+        // //String xml = 'aa';
 
 
-                // output
-                List<Map<String, Object>> resultList = new ArrayList<Map<String, Object>>();
-                Map<String, Object> msgParams = new LinkedHashMap<String, Object>();
-                Map<String, Object> rtnPparams = new LinkedHashMap<String, Object>();
+        //         // output
+        //         List<Map<String, Object>> resultList = new ArrayList<Map<String, Object>>();
+        //         Map<String, Object> msgParams = new LinkedHashMap<String, Object>();
+        //         Map<String, Object> rtnPparams = new LinkedHashMap<String, Object>();
         
-                Map<String, Object> params = null;
-                try {
-                    params = aa.readXmltoMap(str2.toString());
-                    System.out.println();
-                    System.out.println();
-                    System.out.println(params);
-                    System.out.println();
+        //         Map<String, Object> params = null;
+        //         try {
+        //             params = aa.readXmltoMap(str2.toString());
+        //             System.out.println();
+        //             System.out.println();
+        //             System.out.println(params);
+        //             System.out.println();
                     
-                } catch (Exception e1) {
-                    String errMsg = e1.getMessage();
-                    msgParams.clear();
-                    rtnPparams.clear();
-                    msgParams.put("msgCode", "97");
-                    msgParams.put("msgBody", "輸入格式錯誤!!");
+        //         } catch (Exception e1) {
+        //             String errMsg = e1.getMessage();
+        //             msgParams.clear();
+        //             rtnPparams.clear();
+        //             msgParams.put("msgCode", "97");
+        //             msgParams.put("msgBody", "輸入格式錯誤!!");
       
-                    resultList.add(msgParams);
-                    // 回傳檢查傳入參數結果
+        //             resultList.add(msgParams);
+        //             // 回傳檢查傳入參數結果
             
-                }
+        //         }
     }
 }
