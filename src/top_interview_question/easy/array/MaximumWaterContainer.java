@@ -26,6 +26,24 @@ public class MaximumWaterContainer {
         return maxArea;
 
     }
+    
+    /**
+     * 上次twosum那招, 利用space來改善time....沒用了.
+     * 
+     * 改思考這個公式可以怎麼改進
+     * min(a,b)*(bi-ai)
+     * 
+     * bi-ai要最大 => a,b在頭尾
+     * min(a,b) 要最大 => 小的ptr才會影響, 所以只要移動小的ptr
+     * @param height
+     * @return
+     */
+    public int maxArea(int[] height) {
+
+
+        return 0;
+
+    }
 
     public static void main(String[] args) {
 
